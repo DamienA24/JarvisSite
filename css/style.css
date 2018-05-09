@@ -1,4 +1,3 @@
-
 body,
 html {
   width: 100%;
@@ -41,91 +40,131 @@ h6 {
 }
 
 /* Map */
+
 .map {
   height: 30rem;
 }
+
 header {
-background-image: url("../assets/images/5ba95c9d796a38aebb1e448fffdfea58c5bb704e.png");
-background-size: 100% 100%;
-background-repeat: no-repeat;
-height: 600px;
-width: auto;
+  background-image: url("../assets/images/5ba95c9d796a38aebb1e448fffdfea58c5bb704e.png");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 600px;
+  width: auto;
 }
 
-.whatWeDo{
+.whatWeDo {
   background-color: white;
 }
 
-.deliverFutur > p{
+.deliverFutur>p {
   font-size: 26px;
   background-color: white;
 }
 
-.wallet{
+.wallet {
   height: 120px;
   width: 120px;
 }
 
-.descriptionWallet{
+.descriptionWallet {
   background-color: #fafafa;
 }
 
 .articles {
-    background-color: #07E6CF;  
+  background-color: #07E6CF;
 }
-
 
 .myButton {
-	-moz-box-shadow:inset 0px 1px 0px 0px #00eacf;
-	-webkit-box-shadow:inset 0px 1px 0px 0px #00eacf;
-	box-shadow:inset 0px 1px 0px 0px #00eacf;
-	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #00eacf), color-stop(1, #00eacf));
-	background:-moz-linear-gradient(top, #00eacf 5%, #00eacf 100%);
-	background:-webkit-linear-gradient(top, #00eacf 5%, #00eacf 100%);
-	background:-o-linear-gradient(top, #00eacf 5%, #00eacf 100%);
-	background:-ms-linear-gradient(top, #00eacf 5%, #00eacf 100%);
-	background:linear-gradient(to bottom, #00eacf 5%, #00eacf 100%);
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#00eacf', endColorstr='#00eacf',GradientType=0);
-	background-color:#00eacf;
-	border:1px solid #00eacf;
-	display:inline-block;
-	cursor:pointer;
-	color:#000000;
-	font-family:Verdana;
-	font-size:12px;
-	font-weight:bold;
-	padding:10px 30px;
-	text-decoration:none;
-}
-.myButton:hover {
-	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #00eacf), color-stop(1, #00eacf));
-	background:-moz-linear-gradient(top, #00eacf 5%, #00eacf 100%);
-	background:-webkit-linear-gradient(top, #00eacf 5%, #00eacf 100%);
-	background:-o-linear-gradient(top, #00eacf 5%, #00eacf 100%);
-	background:-ms-linear-gradient(top, #00eacf 5%, #00eacf 100%);
-	background:linear-gradient(to bottom, #00eacf 5%, #00eacf 100%);
-	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#00eacf', endColorstr='#00eacf',GradientType=0);
-	background-color:#00eacf;
-}
-.myButton:active {
-	position:relative;
-	top:1px;
+  -moz-box-shadow: inset 0px 1px 0px 0px #00eacf;
+  -webkit-box-shadow: inset 0px 1px 0px 0px #00eacf;
+  box-shadow: inset 0px 1px 0px 0px #00eacf;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #00eacf), color-stop(1, #00eacf));
+  background: -moz-linear-gradient(top, #00eacf 5%, #00eacf 100%);
+  background: -webkit-linear-gradient(top, #00eacf 5%, #00eacf 100%);
+  background: -o-linear-gradient(top, #00eacf 5%, #00eacf 100%);
+  background: -ms-linear-gradient(top, #00eacf 5%, #00eacf 100%);
+  background: linear-gradient(to bottom, #00eacf 5%, #00eacf 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00eacf', endColorstr='#00eacf', GradientType=0);
+  background-color: #00eacf;
+  border: 1px solid #00eacf;
+  display: inline-block;
+  cursor: pointer;
+  color: #000000;
+  font-family: Verdana;
+  font-size: 12px;
+  font-weight: bold;
+  padding: 10px 30px;
+  text-decoration: none;
 }
 
-.jarvisEdge{
+.myButton:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #00eacf), color-stop(1, #00eacf));
+  background: -moz-linear-gradient(top, #00eacf 5%, #00eacf 100%);
+  background: -webkit-linear-gradient(top, #00eacf 5%, #00eacf 100%);
+  background: -o-linear-gradient(top, #00eacf 5%, #00eacf 100%);
+  background: -ms-linear-gradient(top, #00eacf 5%, #00eacf 100%);
+  background: linear-gradient(to bottom, #00eacf 5%, #00eacf 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00eacf', endColorstr='#00eacf', GradientType=0);
+  background-color: #00eacf;
+}
+
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+
+.jarvisEdge {
   color: white;
 }
 
-.jarvisEdge > h1 {
+.jarvisEdge>h1 {
   font-weight: bold;
 }
 
 /* Articles section */
+
 .articles {
-    background-color: #07E6CF;
-   
+  background-color: #07E6CF;
 }
 
 .view {
-	margin-top: 0%;
+  margin-top: 0%;
+}
+
+/*Contact*/
+
+.inputForm {
+  background-color: #0d1f2d;
+}
+
+.myButtonInput {
+  background-color: transparent;
+  border: 1px solid #07e6d0;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 16px;
+  padding: 11px 76px;
+  text-decoration: none;
+  text-shadow: 0px 0px 0px #2f6627;
+}
+
+.myButtonInput:hover {
+  background-color: transparent;
+}
+
+.myButtonInput:active {
+  position: relative;
+  top: 1px;
+}
+
+.form-group>label {
+  color: #dee1e3
+}
+
+.form-control {
+  background-color: #243441;
+  border: #243441;
 }
