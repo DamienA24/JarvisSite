@@ -16,8 +16,6 @@ body {
 .content-section {
   padding-top: 7.5rem;
 	padding-bottom: 7.5rem;
-	margin-left: 5%;
-	margin-right: 5%;
 }
 
 .content-section-heading h2 {
@@ -218,7 +216,19 @@ header a {
 }
 
 /*Contact*/
-
+.mapImage {
+	min-height: 30rem;
+	position: relative;
+	display: table;
+	width: 2000px;
+	height: auto;
+	padding-top: 8rem;
+	padding-bottom: 8rem;
+	background: url("/home/simon/dev/jarvis/JarvisSite/assets/images/map.png");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+  }
 
 .inputForm {
   background-color: #0d1f2d;
