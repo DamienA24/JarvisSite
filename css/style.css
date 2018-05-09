@@ -1,0 +1,19 @@
+.articles {
+    background-color: #07E6CF;
+   
+}
+
+.article {
+    margin: auto;
+    margin-left: 10%;
+    margin-right: 10%
+}
+
+.content {
+    padding: 10px;
+    height: 300px;
+}
+
+.content > .btn {
+    margin-bottom: 0px;
+}
