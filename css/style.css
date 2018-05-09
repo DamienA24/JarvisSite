@@ -14,8 +14,9 @@ body {
 }
 
 .content-section {
-  padding-top: 7.5rem;
-	padding-bottom: 7.5rem;
+  font-family: 'Ubuntu', sans-serif;
+  /* padding-top: 7.5rem;
+	padding-bottom: 7.5rem; */
 }
 
 .content-section-heading h2 {
@@ -117,20 +118,25 @@ header h1 {
   font-family: 'Ubuntu'
 }
 
+header .header-content {
+  margin-top: 35%;
+}
 header h3 {
 	height: 1.05%;	
 	width: 57.29%;
 	font-size: 28px;	
 	font-weight: 300;	
   line-height: 55px;
-  font-family: 'Ubuntu'
+  font-family: 'Ubuntu', sans-serif;
+  margin-top: 15px;
 }
+
 
 header a {
 	background-color: #0AF8C5;
-	color: #000000;
+  color: #000000;
+  margin-top: 5em;
 }
-
 .navTest{
   font-family: 'Ubuntu' !important;
   color: #000000 !important;
@@ -155,7 +161,48 @@ header a {
 }
 
 .articles {
-  background-color: #07E6CF;
+  padding-top: 7.5rem;
+	padding-bottom: 7.5rem;
+  background-color: #0AF8C5;;
+}
+
+.articles h2 {
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 40px;
+  color: #000000;
+}
+
+.articles p {
+  margin-top: 25px;
+  color: rgba(0,0,0,0.6);
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 28px;
+
+}
+
+.articles a {
+  border-radius: 1px;
+  background-color: #464646;
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 24px;
+  text-align: center;
+  margin-left: 0px;
+  margin-top: 39px;
+}
+
+.about {
+  color: #505050;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 38px;
+}
+
+.view {
+  margin-top: 0%;
 }
 
 .myButton {
@@ -211,9 +258,7 @@ header a {
   background-color: #07E6CF;
 }
 
-.view {
-  margin-top: 0%;
-}
+
 
 /*Contact*/
 /* .mapImage {
