@@ -216,7 +216,7 @@ header a {
 }
 
 /*Contact*/
-.mapImage {
+/* .mapImage {
 	min-height: 30rem;
 	position: relative;
 	display: table;
@@ -224,10 +224,25 @@ header a {
 	height: auto;
 	padding-top: 8rem;
 	padding-bottom: 8rem;
-	background: url("/home/simon/dev/jarvis/JarvisSite/assets/images/map.png");
+	background: url("../assets/images/map.png");
 	background-position: center center;
 	background-repeat: no-repeat;
 	background-size: cover;
+  } */
+
+  .mapPlace{
+    position: relative; 
+    z-index: 4;
+  }
+  .textOnMap{
+    position: absolute; 
+    z-index: 6;
+    border: solid #0d1f2d;
+    font-size: 24px;
+    height: 48px;
+    width: 540px;
+    background-color: #0d1f2d;
+    color: #ffffff
   }
 
 .inputForm {
