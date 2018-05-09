@@ -199,10 +199,13 @@ header a {
   font-size: 18px;
   font-weight: 300;
   line-height: 38px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .view {
-  margin-top: 0%;
+  height: 750px;
+  padding-top: 15%;
 }
 
 .myButton {
