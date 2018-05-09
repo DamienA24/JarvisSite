@@ -5,9 +5,27 @@ background-repeat: no-repeat;
 height: 600px;
 width: auto;
 }
+
+.whatWeDo{
+  background-color: white;
+}
+
+.deliverFutur > p{
+  font-size: 26px;
+  background-color: white;
+}
+
+.wallet{
+  height: 120px;
+  width: 120px;
+}
+
+.descriptionWallet{
+  background-color: #fafafa;
+}
+
 .articles {
-    background-color: #07E6CF;
-   
+    background-color: #07E6CF;  
 }
 
 .myButton {
