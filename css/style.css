@@ -1,0 +1,330 @@
+
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.btn-xl {
+  padding: 1.25rem 2.5rem;
+}
+
+.content-section {
+  font-family: 'Ubuntu', sans-serif;
+ padding-top: 7.5rem;
+	padding-bottom: 7.5rem; 
+}
+
+.content-section-heading h2 {
+  font-size: 3rem;
+}
+
+.content-section-heading h3 {
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+.text-faded {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* Map */
+
+.map {
+  height: 30rem;
+}
+@media (max-width: 992px) {
+	.map {
+	  height: 75%;
+	}
+  }
+  
+  .map iframe {
+	pointer-events: none;
+  }
+  
+  .scroll-to-top {
+	position: fixed;
+	right: 15px;
+	bottom: 15px;
+	display: none;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	color: white;
+	background: rgba(52, 58, 64, 0.5);
+	line-height: 45px;
+  }
+  
+  .scroll-to-top:focus, .scroll-to-top:hover {
+	color: white;
+  }
+  
+  .scroll-to-top:hover {
+	background: #343a40;
+  }
+  
+  .scroll-to-top i {
+	font-weight: 800;
+  }
+  
+  .masthead {
+	min-height: 30rem;
+	position: relative;
+	display: table;
+	width: 100%;
+	height: auto;
+	margin-right: 5%;
+	background: url("../assets/images/5ba95c9d796a38aebb1e448fffdfea58c5bb704e.png");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+  }
+  
+  .masthead h1 {
+	font-size: 4rem;
+	margin: 0;
+	padding: 0;
+  }
+  
+  @media (min-width: 992px) {
+	.masthead {
+	  height: 100vh;
+	}
+	.masthead h1 {
+    font-size: 5.5rem;
+    font-family: 'Ubuntu';
+	}
+  }
+
+/* Header */
+
+header {
+	color: #FFFFFF;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+header h1 {
+	height: 1.37%;
+	width: 57.29%;
+	font-size: 64px;	
+  line-height: 74px;
+  font-family: 'Ubuntu'
+}
+
+
+header h3 {
+	height: 1.05%;	
+	width: 57.29%;
+	font-size: 28px;	
+	font-weight: 300;	
+  line-height: 55px;
+  font-family: 'Ubuntu', sans-serif;
+  margin-top: 15px;
+}
+
+
+header a {
+	background-color: #0AF8C5;
+  color: #000000;
+}
+.navTest{
+  font-family: 'Ubuntu' !important;
+  color: #000000 !important;
+}
+
+.whatWeDo{
+  background-color: white;
+}
+
+.deliverFutur>p {
+  font-size: 26px;
+  background-color: white;
+}
+
+.wallet {
+  height: 120px;
+  width: 120px;
+}
+
+.descriptionWallet {
+  background-color: #fafafa;
+}
+
+.articles {
+  padding-top: 7.5rem;
+	padding-bottom: 7.5rem;
+  background-color: #0AF8C5;;
+}
+
+.articles h2 {
+  font-size: 28px;
+  font-weight: 300;
+  line-height: 40px;
+  color: #000000;
+}
+
+.articles p {
+  margin-top: 25px;
+  color: rgba(0,0,0,0.6);
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 28px;
+
+}
+
+.articles a {
+  border-radius: 1px;
+  background-color: #464646;
+  color: #FFFFFF;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 24px;
+  text-align: center;
+  margin-left: 0px;
+  margin-top: 39px;
+}
+
+.about {
+  color: #505050;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 38px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.view {
+  height: 350px;
+  padding-top: 15%;
+}
+
+.myButton {
+  -moz-box-shadow: inset 0px 1px 0px 0px #00eacf;
+  -webkit-box-shadow: inset 0px 1px 0px 0px #00eacf;
+  box-shadow: inset 0px 1px 0px 0px #00eacf;
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #00eacf), color-stop(1, #00eacf));
+  background: -moz-linear-gradient(top, #00eacf 5%, #00eacf 100%);
+  background: -webkit-linear-gradient(top, #00eacf 5%, #00eacf 100%);
+  background: -o-linear-gradient(top, #00eacf 5%, #00eacf 100%);
+  background: -ms-linear-gradient(top, #00eacf 5%, #00eacf 100%);
+  background: linear-gradient(to bottom, #00eacf 5%, #00eacf 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00eacf', endColorstr='#00eacf', GradientType=0);
+  background-color: #00eacf;
+  border: 1px solid #00eacf;
+  display: inline-block;
+  cursor: pointer;
+  color: #000000;
+  font-family: 'Ubuntu';
+  font-size: 12px;
+  font-weight: bold;
+  padding: 10px 30px;
+  text-decoration: none;
+}
+
+.myButton:hover {
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0.05, #00eacf), color-stop(1, #00eacf));
+  background: -moz-linear-gradient(top, #00eacf 5%, #00eacf 100%);
+  background: -webkit-linear-gradient(top, #00eacf 5%, #00eacf 100%);
+  background: -o-linear-gradient(top, #00eacf 5%, #00eacf 100%);
+  background: -ms-linear-gradient(top, #00eacf 5%, #00eacf 100%);
+  background: linear-gradient(to bottom, #00eacf 5%, #00eacf 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00eacf', endColorstr='#00eacf', GradientType=0);
+  background-color: #00eacf;
+}
+
+.myButton:active {
+  position: relative;
+  top: 1px;
+}
+
+.jarvisEdge {
+  color: white;
+}
+
+.jarvisEdge>h1 {
+  font-weight: bold;
+}
+
+/* Articles section */
+
+.articles {
+  background-color: #07E6CF;
+}
+
+
+
+/*Contact*/
+/* .mapImage {
+	min-height: 30rem;
+	position: relative;
+	display: table;
+	width: 2000px;
+	height: auto;
+	padding-top: 8rem;
+	padding-bottom: 8rem;
+	background: url("../assets/images/map.png");
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-size: cover;
+  } */
+
+  .mapPlace{
+    position: relative; 
+    z-index: 4;
+  }
+
+  .sectionMap{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  
+  .textOnMap{
+    position: absolute; 
+    z-index: 6;
+    border: solid #0d1f2d;
+    font-size: 24px;
+    height: 48px;
+    width: 540px;
+    background-color: #0d1f2d;
+    color: #ffffff
+  }
+
+.inputForm {
+  background-color: #0d1f2d;
+}
+
+.myButtonInput {
+  background-color: transparent;
+  border: 1px solid #07e6d0;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 16px;
+  padding: 11px 76px;
+  text-decoration: none;
+  text-shadow: 0px 0px 0px #2f6627;
+}
+
+.myButtonInput:hover {
+  background-color: transparent;
+}
+
+.myButtonInput:active {
+  position: relative;
+  top: 1px;
+}
+
+.form-group>label {
+  color: #dee1e3
+}
+
+.form-control {
+  background-color: #243441;
+  border: #243441;
+}
