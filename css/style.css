@@ -79,8 +79,6 @@ body {
 	width: 100%;
 	height: auto;
 	margin-right: 5%;
-	padding-top: 8rem;
-	padding-bottom: 8rem;
 	background: url("../assets/images/5ba95c9d796a38aebb1e448fffdfea58c5bb704e.png");
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -118,9 +116,7 @@ header h1 {
   font-family: 'Ubuntu'
 }
 
-header .header-content {
-  margin-top: 35%;
-}
+
 header h3 {
 	height: 1.05%;	
 	width: 57.29%;
@@ -135,7 +131,6 @@ header h3 {
 header a {
 	background-color: #0AF8C5;
   color: #000000;
-  margin-top: 5em;
 }
 .navTest{
   font-family: 'Ubuntu' !important;
