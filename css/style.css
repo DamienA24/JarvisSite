@@ -1,3 +1,4 @@
+
 body,
 html {
   width: 100%;
@@ -26,15 +27,6 @@ body {
 .content-section-heading h3 {
   font-size: 1rem;
   text-transform: uppercase;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-weight: 700;
 }
 
 .text-faded {
@@ -107,7 +99,8 @@ h6 {
 	  height: 100vh;
 	}
 	.masthead h1 {
-	  font-size: 5.5rem;
+    font-size: 5.5rem;
+    font-family: 'Ubuntu';
 	}
   }
 
@@ -116,14 +109,14 @@ h6 {
 header {
 	color: #FFFFFF;
 	font-family: 'Ubuntu', sans-serif;
-
 }
 
 header h1 {
 	height: 1.37%;
 	width: 57.29%;
 	font-size: 64px;	
-	line-height: 74px;
+  line-height: 74px;
+  font-family: 'Ubuntu'
 }
 
 header h3 {
@@ -131,12 +124,18 @@ header h3 {
 	width: 57.29%;
 	font-size: 28px;	
 	font-weight: 300;	
-	line-height: 55px;
+  line-height: 55px;
+  font-family: 'Ubuntu'
 }
 
 header a {
 	background-color: #0AF8C5;
-	color: black;
+	color: #000000;
+}
+
+.navTest{
+  font-family: 'Ubuntu' !important;
+  color: #000000 !important;
 }
 
 .whatWeDo{
@@ -177,7 +176,7 @@ header a {
   display: inline-block;
   cursor: pointer;
   color: #000000;
-  font-family: Verdana;
+  font-family: 'Ubuntu';
   font-size: 12px;
   font-weight: bold;
   padding: 10px 30px;
