@@ -5,6 +5,10 @@ background-repeat: no-repeat;
 height: 600px;
 width: auto;
 }
+.articles {
+    background-color: #07E6CF;
+   
+}
 
 .myButton {
 	-moz-box-shadow:inset 0px 1px 0px 0px #00eacf;
@@ -51,3 +55,18 @@ width: auto;
   font-weight: bold;
 }
 
+
+.article {
+    margin: auto;
+    margin-left: 10%;
+    margin-right: 10%
+}
+
+.content {
+    padding: 10px;
+    height: 300px;
+}
+
+.content > .btn {
+    margin-bottom: 0px;
+}
