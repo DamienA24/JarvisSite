@@ -234,6 +234,12 @@ header a {
     position: relative; 
     z-index: 4;
   }
+
+  .sectionMap{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  
   .textOnMap{
     position: absolute; 
     z-index: 6;
