@@ -178,12 +178,11 @@ header h1 {
 
 
 header h3 {
-	height: 1.05%;	
-	width: 57.29%;
-	font-size: 28px;	
-	font-weight: 300;	
+	color: #FFFFFF;
+  font-family: 'Ubuntu light', sans-serif;
+  font-size: 28px;
+  font-weight: 300;
   line-height: 55px;
-  font-family: 'Ubuntu', sans-serif;
   margin-top: 15px;
 }
 
