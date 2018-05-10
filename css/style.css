@@ -32,6 +32,66 @@ body {
   color: rgba(255, 255, 255, 0.7);
 }
 
+#mainNav {
+  background-color: rgba(255,255,255,0);
+}
+
+#mainNav .navbar-toggler {
+  font-size: 12px;
+  right: 0;
+  padding: 13px;
+  text-transform: uppercase;
+  color: white;
+  border: 0;
+  background-color: #fed136;
+  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+
+#mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
+  color: #fec503;
+}
+
+#mainNav .navbar-nav .nav-item .nav-link {
+  font-size: 13px;
+  color: #000000;
+  font-family: 'Ubuntu light', sans-serif;
+  line-height: 14px;
+  text-align: right;
+  
+}
+
+@media (min-width: 992px) {
+  #mainNav {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
+    -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
+    transition: padding-top 0.3s, padding-bottom 0.3s;
+    border: none;
+    background-color: transparent;
+  }
+  #mainNav .navbar-brand {
+    font-size: 1.75em;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  #mainNav .navbar-nav .nav-item .nav-link {
+    padding: 1.1em 1em !important;
+    color: white;
+  }
+  #mainNav.navbar-shrink {
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #212529;
+  }
+  #mainNav.navbar-shrink .navbar-brand {
+    font-size: 1.25em;
+    padding: 12px 0;
+  }
+}
+
 /* Map */
 
 .map {
@@ -131,20 +191,27 @@ header h3 {
 header a {
 	background-color: #0AF8C5;
   color: #000000;
+  border-radius: 1px;
 }
-.navTest{
-  font-family: 'Ubuntu' !important;
-  color: #000000 !important;
-}
-
 .whatWeDo{
-  background-color: white;
+  background-color: rgba(255,255,255,0);
+}
+.descriptionWallet {
+  background-color: rgba(255,255,255,0);
 }
 
 .deliverFutur>p {
   font-size: 26px;
   background-color: white;
+  color: #000000;
+  font-size: 28px;
+  font-weight: 300;
+  text-align: center;
+  text-shadow: 0 1px 1px 0 rgba(0,0,0,0.16);
+  font-family: 'Ubuntu light', sans-serif;
 }
+
+
 
 .wallet {
   height: 120px;
@@ -153,6 +220,26 @@ header a {
 
 .descriptionWallet {
   background-color: #fafafa;
+}
+
+.descriptionWallet h2 {
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0.8px;
+  line-height: 24px;
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  
+}
+
+.descriptionWallet p {
+  color: #000000;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 28px;
+  text-align: center;
+  font-family: 'Ubuntu light', sans-serif;
+
 }
 
 .articles {
@@ -166,11 +253,14 @@ header a {
   font-weight: 300;
   line-height: 40px;
   color: #000000;
+  font-family: 'Ubuntu light', sans-serif;
+
 }
 
 .articles p {
   margin-top: 25px;
   color: rgba(0,0,0,0.6);
+  font-family: 'Ubuntu light', sans-serif;
   font-size: 18px;
   font-weight: 300;
   line-height: 28px;
@@ -192,6 +282,7 @@ header a {
 .about {
   color: #505050;
   font-size: 18px;
+  font-family: 'Ubuntu light', sans-serif;
   font-weight: 300;
   line-height: 38px;
   padding-top: 80px;
@@ -327,4 +418,14 @@ header a {
 .form-control {
   background-color: #243441;
   border: #243441;
+}
+
+/*footer*/
+
+a{
+  color: black;
+}
+
+a:hover{
+  color: #07e6d0;
 }
