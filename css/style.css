@@ -149,7 +149,15 @@ header a {
 .deliverFutur>p {
   font-size: 26px;
   background-color: white;
+  color: #000000;
+  font-size: 28px;
+  font-weight: 300;
+  text-align: center;
+  text-shadow: 0 1px 1px 0 rgba(0,0,0,0.16);
+  font-family: 'Ubuntu light', sans-serif;
 }
+
+
 
 .wallet {
   height: 120px;
@@ -158,6 +166,26 @@ header a {
 
 .descriptionWallet {
   background-color: #fafafa;
+}
+
+.descriptionWallet h2 {
+  color: #000000;
+  font-size: 24px;
+  letter-spacing: 0.8px;
+  line-height: 24px;
+  text-align: center;
+  font-family: 'Ubuntu', sans-serif;
+  
+}
+
+.descriptionWallet p {
+  color: #000000;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 28px;
+  text-align: center;
+  font-family: 'Ubuntu light', sans-serif;
+
 }
 
 .articles {
@@ -171,11 +199,14 @@ header a {
   font-weight: 300;
   line-height: 40px;
   color: #000000;
+  font-family: 'Ubuntu light', sans-serif;
+
 }
 
 .articles p {
   margin-top: 25px;
   color: rgba(0,0,0,0.6);
+  font-family: 'Ubuntu light', sans-serif;
   font-size: 18px;
   font-weight: 300;
   line-height: 28px;
@@ -197,6 +228,7 @@ header a {
 .about {
   color: #505050;
   font-size: 18px;
+  font-family: 'Ubuntu light', sans-serif;
   font-weight: 300;
   line-height: 38px;
   padding-top: 80px;
