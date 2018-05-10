@@ -189,6 +189,7 @@ header h3 {
   font-weight: 300;
   line-height: 55px;
   margin-top: 15px;
+  padding-bottom: 10%;
 }
 
 
@@ -198,7 +199,7 @@ header a {
   border-radius: 1px;
 }
 .whatWeDo{
-  padding: 20px;
+  /* padding: 20px; */
   background-color: rgba(255,255,255,0);
 }
 .descriptionWallet {
@@ -236,6 +237,7 @@ h2 {
   text-align: center;
   text-shadow: 0 1px 1px 0 rgba(0,0,0,0.16);
   font-family: 'Ubuntu light', sans-serif;
+  padding: 50px;
 }
 
 .descriptionWallet h3 {
@@ -303,6 +305,10 @@ h2 {
   line-height: 38px;
   padding-top: 80px;
   padding-bottom: 80px;
+}
+
+.about h2 {
+  padding: 10px;
 }
 
 .view {
@@ -422,12 +428,16 @@ h2 {
   text-align: center;
   font-family: 'Ubuntu light', sans-serif;
   width: 19em;
-  height: 2.5em;
+  height: 2em;
   /* font-family: Arial;
   font-size: 16px;
   padding: 11px 76px;
   text-decoration: none;
   text-shadow: 0px 0px 0px #2f6627; */
+}
+
+.form-group {
+  margin-top: 19px;
 }
 
 .form-control {
@@ -448,6 +458,10 @@ h2 {
 
 .animated-label {
   color: white;
+}
+
+.textArea{
+  resize: none;
 }
 
 
