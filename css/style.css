@@ -61,6 +61,8 @@ body {
   
 }
 
+
+
 @media (min-width: 992px) {
   #mainNav {
     padding-top: 25px;
@@ -79,17 +81,22 @@ body {
   }
   #mainNav .navbar-nav .nav-item .nav-link {
     padding: 1.1em 1em !important;
-    color: white;
+    color: #000000;
+
   }
   #mainNav.navbar-shrink {
     padding-top: 0;
     padding-bottom: 0;
-    background-color: #212529;
+    background-color: white;
   }
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
     padding: 12px 0;
   }
+}
+
+#mainNav .nav-item:hover {
+  color: #07e6d0;
 }
 
 /* Map */
@@ -193,6 +200,7 @@ header a {
   border-radius: 1px;
 }
 .whatWeDo{
+  padding: 20px;
   background-color: rgba(255,255,255,0);
 }
 .descriptionWallet {
@@ -221,7 +229,18 @@ header a {
   background-color: #fafafa;
 }
 
-.descriptionWallet h2 {
+h2 {
+  text-align: center;
+  color: #3DD7E2;
+  font-size: 48px;
+  font-weight: 300;
+  line-height: 52px;
+  text-align: center;
+  text-shadow: 0 1px 1px 0 rgba(0,0,0,0.16);
+  font-family: 'Ubuntu light', sans-serif;
+}
+
+.descriptionWallet h3 {
   color: #000000;
   font-size: 24px;
   letter-spacing: 0.8px;
@@ -247,7 +266,7 @@ header a {
   background-color: #0AF8C5;;
 }
 
-.articles h2 {
+.articles h3 {
   font-size: 28px;
   font-weight: 300;
   line-height: 40px;
@@ -363,6 +382,10 @@ header a {
 	background-size: cover;
   } */
 
+  .contact {
+    background-color: #0d1f2d;
+  }
+
   .mapPlace{
     position: relative; 
     z-index: 4;
@@ -381,24 +404,28 @@ header a {
     height: 48px;
     width: 540px;
     background-color: #0d1f2d;
+    padding-left: 40px;
     color: #ffffff
   }
 
-.inputForm {
-  background-color: #0d1f2d;
-}
-
 .myButtonInput {
-  background-color: transparent;
-  border: 1px solid #07e6d0;
-  display: inline-block;
+  background-color:  #07e6d0;
+  border-radius: 1px;
+  /* display: inline-block; */
   cursor: pointer;
-  color: #ffffff;
-  font-family: Arial;
+  color: #0D1F2D;
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 24px;
+  text-align: center;
+  font-family: 'Ubuntu light', sans-serif;
+  width: 19em;
+  height: 2.5em;
+  /* font-family: Arial;
   font-size: 16px;
   padding: 11px 76px;
   text-decoration: none;
-  text-shadow: 0px 0px 0px #2f6627;
+  text-shadow: 0px 0px 0px #2f6627; */
 }
 
 .myButtonInput:hover {
@@ -419,6 +446,9 @@ header a {
   border: #243441;
 }
 
+.custom-form .form-control {
+  border: red;
+}
 /*footer*/
 
 a{
@@ -427,4 +457,9 @@ a{
 
 a:hover{
   color: #07e6d0;
+}
+
+p {
+  font-family: 'Ubuntu light', sans-serif;  
+  color: #505050;
 }
