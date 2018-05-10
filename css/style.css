@@ -419,3 +419,13 @@ header a {
   background-color: #243441;
   border: #243441;
 }
+
+/*footer*/
+
+a{
+  color: black;
+}
+
+a:hover{
+  color: #07e6d0;
+}
