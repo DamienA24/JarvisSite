@@ -442,13 +442,13 @@ h2 {
 }
 
 .form-control {
-  background-color: #243441;
-  border: #243441;
+  background-color: #0d1f2d;
+  border-top: white;
+  border-right: white;
+  border-left: white;
+  border-radius: 0;
 }
 
-.custom-form .form-control {
-  border: red;
-}
 /*footer*/
 
 a{
